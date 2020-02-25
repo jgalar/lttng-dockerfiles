@@ -16,7 +16,7 @@ LABEL maintainer="jeremie.galarneau@gmail.com"
 # tzdata, installed by asciidoc, will ask for a timezone during install
 ENV DEBIAN_FRONTEND noninteractive
 
-# Install build dependancies (to use vlttng)
+# Install build dependencies (to use vlttng)
 RUN apt-get update && apt-get --yes install emacs-nox \
                           git \
                           automake \
