@@ -8,7 +8,7 @@
 FROM ubuntu:latest
 
 ARG lttng_branch=master
-ARG urcu_branch=stable-0.10
+ARG urcu_branch=stable-0.12
 ARG bt_branch=master
 
 LABEL maintainer="jeremie.galarneau@gmail.com"
