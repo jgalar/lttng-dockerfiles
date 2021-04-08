@@ -48,7 +48,7 @@ RUN pip3 install vlttng
 RUN useradd -ms /bin/bash dev
 USER dev
 
-RUN vlttng -v -p babeltrace-${bt_branch} \
+RUN vlttng -v -p babeltrace2-${bt_branch} \
                          -p urcu-${urcu_branch} \
 			 -p lttng-ust-${lttng_branch} \
 			 -p lttng-tools-${lttng_branch} \
